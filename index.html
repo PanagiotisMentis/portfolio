@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panagiotis Mentis | Project Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo"><span class="highlight">panagiotis@mentis:~ ⌂</span></a>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Custom Background Image -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-accent">// A website with my work and interests</p>
+            <h1> <span class="highlight">Panagiotis Mentis</span>->Portfolio</h1>
+            <h2>Computer Engineering Sophomore at Virginia Tech</h2>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a second-year Computer Engineering student at VT. I'm looking for an embedded systems internship for Summer 2027. 
+                <br> <br> My coursework includes: <br>
+                • Digital Systems - Spring 2026 (built a 16-bit CPU from transistors in Verilog for a DE-10LITE FPGA),  <br> 
+                • Embedded Systems - Fall 2026 (finite state machines, polling, and interrupts in bare-metal C),  <br>
+                • Circuits & Devices - Fall 2026 (linear DC/AC analysis, transients, phasors, frequency response), <br>
+                • Signals & Systems - Upcoming Spring 2027 <br> <br>
+                
+                I'm always looking for more experiences to expand my knowledge and professional background.
+            </p>
+            
+            <h3>Core Skills</h3>
+            <div class="skills-grid">
+                <span class="skill-tag">C / C++</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">Linux</span>
+                <span class="skill-tag">Altium Designer</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-alt">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 Card -->
+                <div class="project-card">
+                    <div class="card-header">
+                        <!-- <span class="folder-icon">📁</span> -->
+                        <h3>E-ink Sheet Music Display</h3>
+                    </div>
+                    <p class="project-tech">(Jan 2026 - Sep 2026)<br>C++ • ESP32 • Python</p>
+                    <img src="project-1.jpg" alt="E-ink sheet music display image" class="project-image">
+                    
+                    <p>An E-ink display tablet for sheet music with C++ PDF to E-ink converter software</p>
+                    <!-- <a href="project-1/index.html" class="project-link">View Project Details →</a> -->
+                    <a href="https://github.com/PanagiotisMentis/EinkSheetMusic" target="_blank" class="project-link">View Project Details →</a>
+                </div>
+
+                <!-- Project 2 Card -->
+                <div class="project-card">
+                    <div class="card-header">
+                        <!-- <span class="folder-icon">📁</span> -->
+                        <h3>E-ink Wireless RF Foot Pedal</h3>
+                    </div>
+                    <p class="project-tech">(Aug 2026 - Present)<br>C++ • Altium Designer</p>
+                    <img src="project-2.jpg" alt="E-ink foot pedal image" class="project-image">
+
+                    <p>An RF foot pedal to turn pages on the E-ink tablet made with Altium Designer</p>
+                    <a href="https://github.com/PanagiotisMentis/EinkFootPedal" target="_blank" class="project-link">View Project Details →</a>
+                </div>
+
+                <!-- Project 3 Card -->
+                <div class="project-card">
+                    <div class="card-header">
+                        <!-- <span class="folder-icon">📁</span> -->
+                        <h3><i>Baby BOLT</i> UART to CAN Adapter PCB</h3>
+                    </div>
+                    <p class="project-tech">(Sep 2026 - Present)<br>STM32 • Altium Designer</p>
+                    <img src="project-3.jpg" alt="BOLT CAN adapter image" class="project-image">
+
+                    <p>A UART to CAN adapter PCB for telemetry on the <i>Baby BOLT</i> electric motorcycle</p>
+                    <a href="project-3/index.html" target="_blank" class="project-link">View Project Details →</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container text-center">
+            <p class="hero-accent">// $grep -r "contact" ./me</p>
+            <h2>Get In Touch</h2>
+            <p>Email: <a href="mailto:pdmentis@vt.edu" class="highlight-link">pdmentis@vt.edu</a></p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/panagiotismentis" target="_blank">LinkedIn</a> • 
+                <a href="https://github.com/panagiotismentis" target="_blank">GitHub</a> • 
+                <a href="https://app.joinhandshake.com/profiles/panagiotismentis" target="_blank">Handshake</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Go Hokies!</p>
+    </footer>
+
+</body>
+</html>

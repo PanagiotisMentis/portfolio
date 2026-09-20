@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Title | Portfolio</title>
+    <!-- Links backward one directory level to use your main theme CSS -->
+    <link rel="stylesheet" href="../style.css"> 
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="../index.html" class="logo"><span class="highlight">panagiotis@mentis:~ ⌂</span></a>
+            <nav>
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#projects">Projects</a>
+                <a href="../index.html#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Project Specific Hero with Unique Header Image Inline Background -->
+    <section class="project-sub-hero" style="background-image: url('./stm.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <a href="../index.html" class="back-btn">← Back to Portfolio</a>
+            <h1><i>Baby BOLT</i> UART to CAN Adapter PCB</h1>
+            <p class="project-tech">STM32 • Altium Designer</p>
+        </div>
+    </section>
+
+    <!-- Deep-Dive Documentation Area -->
+    <main class="project-details container">
+        <h2>Overview</h2>
+        <p>This project is just now getting started. Currently, the <i>Baby BOLT</i> electric motorcycle
+            has a Battery Management System (BMS) that outputs UART telemetry. This adapter PCB will use an STM32
+            IC to put the UART input telemetry to CAN for the existing bike dashboard, which takes CAN data. 
+        </p>
+
+        <h2>Hardware Components & Tools</h2>
+        <div class="skills-grid">
+            <span class="skill-tag">STM32</span>
+            <span class="skill-tag">Altium Designer</span>
+            <span class="skill-tag">Rust</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">CAN Protocol</span>
+            <span class="skill-tag">UART Protocol</span>
+        </div>
+
+        <h2>Implementation & Technical Challenges</h2>
+        <p>The adapter PCB must fit in a confined space next to the BMS to avoid interfering with other bike components.
+            It must also run on appropriate power from the BMS.
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Your Name. Go Hokies! 🦃</p>
+    </footer>
+
+</body>
+</html>
